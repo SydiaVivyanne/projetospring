@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+	<!--cabecalho -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark"
+		th:fragment="cabecalho">
+		<a class="navbar-brand" href="#">Gerenciador de tarefas</a>
+		<button class="navbar-toggler" type="button" data-toggler="collapse"
+			data-target="#navbar-app">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-app">
+			<a class="nav-item nav-link" href="/">Home</a>
+		</div>
+	</nav>
+
+	<script type="/webjars/jquery/3.4.1/jquery.min.js"></script>
+	<script type="/webjars/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
